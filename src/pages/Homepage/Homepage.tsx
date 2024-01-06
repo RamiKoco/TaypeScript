@@ -3,6 +3,10 @@ import ProductCard from "../../components/ProductCard/ProductCard";
 import ProductService from "../../services/ProductService";
 import {ProductModel} from "../../models/responses/ProductModel";
 
+
+
+
+
 type Props = {};
 
 const Homepage = (props: Props) => {

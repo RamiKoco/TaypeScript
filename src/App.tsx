@@ -21,3 +21,42 @@ function App(): ReactElement {
 }
 
 export default App;
+
+
+///Fonksiyon oluşturma ve kullanımı////
+
+// function myfunc(num1:number,num2:number)
+// { return (num1+num2);}
+// console.log(myfunc(7,6));
+
+// function myfunc(num1:number,num2:number=2)
+// { return (num1+num2);}
+// console.log(myfunc(3));
+
+// function myfunc(num1:number,num2:number=2):string
+// {
+//  return "Result: "+(num1+num2).toString();
+// }
+// console.log(myfunc(5));
+
+// function myfunc(num1:number,num2?:number):string
+// {
+// 	if(num2 !==undefined)
+// 	{
+// 		return "Result: "+(num1+num2).toString();
+// 	}
+// 	else
+// 	return "Result: "+(num1).toString();
+ 
+// }
+// console.log(myfunc(2));
+
+// function myFunc2(...num:number[])
+// {
+// 	let r=0;
+// 	for (let i = 0; i <num.length;i++) {
+// 		r +=num[i];
+// 	}
+// 	return r;
+// }
+// console.log(myFunc2(1,2,3,4,10));
