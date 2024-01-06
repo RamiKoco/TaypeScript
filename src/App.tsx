@@ -14,7 +14,7 @@ function App(): ReactElement {
 			<Routes>
 				<Route path="/" element={<Homepage />}></Route>
 				<Route path="/product-detail/:id" element={<ProductDetail />}></Route>
-				<Route path="/product-add" element={<ProductAdd />}></Route>
+				<Route path="/product-add" element={<ProductAdd />}></Route>				
 			</Routes>
 		</>
 	);
