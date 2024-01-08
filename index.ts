@@ -1,5 +1,9 @@
 //TypeScript nedir?
 //nesne yönelimli ve derlenebilir açık kaynaklı bir programlama dilidir.
+// Dönüş tipi (ıip Güvenliliği)
+//let i:string="Hello";
+//let num:number=10;
+
 // let num1:number=61;
 // let num2:number=12;
 // console.log(num1*num2);
@@ -34,8 +38,8 @@
     
 // }
 
-let cityList:Array<any>=["Rami Koco",'İstanbul',35000,12.4,false,'R'];
-for (let i = 0; i < cityList.length; i++) {
-    console.log(cityList[i]);
+// let cityList:Array<any>=["Rami Koco",'İstanbul',35000,12.4,false,'R'];
+// for (let i = 0; i < cityList.length; i++) {
+//     console.log(cityList[i]);
     
-}
+// }
